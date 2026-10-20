@@ -1,0 +1,265 @@
+*
+/* largura é width */
+/* altura é height */
+/* fonte é font */
+/* cor é color° */
+/* itálico é Italic */
+/* negrito é bold */
+/* tamanho é size */
+/* família é family */
+/* floats right é flutua á direita */
+/* floats left é flutua à esquerda */
+/* floats é flutuadores(as) */
+/* margin = cima"+", direita"+", baixo"-", esquerda"-" */
+/* padding é preenchimento */
+body
+{
+    margin: 0;
+}
+header
+{
+    width: 100%;
+    height: 150px;
+    background-image: url(HTML5/header.jpg);
+}
+#topo
+{
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+}
+#menu1
+{
+    float: right;
+    width: 190px;
+    height: 12px;
+    margin: 40px 40px 0px 0px;
+    border: none;
+}
+#menu1 img
+{
+    float: left;
+    margin: 0px 35px 0px 0px;
+}
+#menu2
+{
+    float: right;
+}
+#menu2 ul
+{
+    list-style: none;
+}
+#menu2 ul li
+{
+    float: left;
+}
+#menu2 a 
+{
+    font: 17px arial;    /*só colocar fonte e as propriedades que você quer! exemplo "font: 17px arial; " */
+    text-decoration: none;
+    color: #ffffff;
+}
+#menu2 a :hover
+{
+    color: #000000;
+}
+#logo
+{
+    width: 270px;
+    height: 90px;
+    font: italic, bold, 23px;
+    color: #ffffff;
+    margin: 20px 0px 0px 20px;
+    float: left; 
+}
+#nome
+{
+    font: 54px, corbel;
+    color: #0c6c92;
+}
+#banner
+{
+    width: 1000px;
+    height: 320px;
+    margin: auto;
+}
+#conteudo
+{
+    background: #fafafa;
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+}
+aside
+{
+    float: left;
+    width: 346px;
+    height: 100%;
+    background: #e4e4e4;
+}
+#formulario
+{
+    float: left;
+    margin: 25px 0px 30px 59px ;
+}
+#formulario input
+{
+    margin: 2px 0px 12px 0px;
+    padding: 3px;
+    color: #069;
+}
+#tituloform
+{
+    font:21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 25px;
+}
+#formulario form 
+{
+    font: bold 15px;
+    
+}
+#novidades
+{
+    width: 228px;
+    margin: 15px 0px 0px 59px;
+}
+#textoempresa
+{
+    float: left;
+    font: 17px;
+    color: #333;
+    text-align: justify;
+    margin: 12px 0px 30px 20px;
+}
+.imgempresa /* class colocar "." e o nome dela*/
+{
+    float: left;
+    margin: 0px 20px 0px 0px;
+} 
+#listatitulo
+{
+    font: bold 22px corbel;
+    text-transform: uppercase;
+}
+#listalink
+{
+    font: bold 16px corbel;
+    color: #069;
+}
+#listaitem
+{
+    font: bold 16px corbel;
+}
+#texto
+{
+    float: left;
+    width: 654px;
+    height: 100%;
+}
+#texto span
+{
+    font: bold, 22px;
+    float: left;
+    width: 100%;
+    margin: 25px 0px 0px 25px;
+}
+#texto p
+{
+    font: 17px;
+    float: left;
+    width: 634px;
+    margin: 5px 0px 0px 20px;
+    text-align: justify;
+    color: #333;
+}
+#textoempresa audio 
+{
+    margin: 5px 0px 0px 0px ;
+    width: 300px;
+    background: url(HTML5/bg_btn.jpg), repeat-x; 
+}
+.btn
+{
+    float: right;
+    margin: 10px 0px 0px 15px;
+    font: bold, 14px;
+    color: #ffffff;
+    text-decoration: none;
+    height:30px;
+    line-height: 30px;
+    padding: 0px, 8px, 0px, 8px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    box-shadow: 1px, 1px, 2px, #000000;
+    background: url(HTML5/bg_btn.jpg), repeat-x;
+}
+.btn:hover
+{
+    background:url(HTML5/bg_btn2.jpg), repeat-x;
+}
+#depoimento
+{
+    float: left;
+    width: 100%;
+    height: 280px;
+    margin: 30px 0px 0px 0px;
+}
+#table
+{
+    float: left;
+    margin: 20px 0px 0px 15px;
+}
+.tbl
+{
+    background: #ccc;
+    width: 80%;
+    font: 17px, tahoma;
+    font-style: #0000;
+}
+.tbl2
+{
+    background: #999;
+    padding: 0px 23px 17px 0px;
+}
+#recente
+{
+    float: right;
+    width: 200px;
+    height: 220px;
+    border-radius: 8px;
+    padding: 40px 20px 20px 20px;
+    background: url(HTML5/recente.jpg);
+    font:19px;
+    color: #ffffff;
+}
+#cliente 
+{
+    width: 206px;
+    font: 17px Corbel;
+    text-align: justify;
+    color: #000000; /* Não colo a cor branco PORAAAAAAAAAA!!!!!!!!! */
+    margin: 40px 0px 0px 65px;
+}
+#cliente span 
+{
+    color: #000000; /* Não colo a cor branco PORAAAAAAAAAA!!!!!!!!! */
+    margin: 0px 0px 7px 0px;
+}
+footer
+{
+    width: 100%;
+    height: 150px;
+    background-image: url(HTML5/header.jpg);
+}
+footer span
+{
+    font: 15px;
+    color: #ffffff;
+    width: 100%;
+    float: left;
+    margin: 75px 0px 0px 0px;
+    text-align: center;
+}

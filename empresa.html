@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Air Line - linhas internacionais(Página da empresa)</title>
+    <meta name="description" content="Air Line Interncionais - aqui você encontra tudo sobre pacotes
+        e passagens aéreas para qualquer lugar do mundo, não perca essa oputunidade">
+</head>
+
+<body>
+    <header>
+        <section id="topo">
+            <nav id="menu1">
+                <a href="index.html"><img src="HTML5/img1.gif" alt="Página inicial"></a>
+                <a href="contato.html"><img src="HTML5/img2.gif" alt="Contato"></a>
+                <a href="vídeos.html"><img src="HTML5/img3.gif" alt="Vídeos"></a>
+            </nav>
+            <nav id="menu2">
+                <ul>
+                    <a href="home.html">
+                        <li> HOME </li>
+                    </a>
+                    <a href="empresa.html">
+                        <li> A EMPRESA </li>
+                    </a>
+                    <a href="fotos.html">
+                        <li> FOTOS </li>
+                    </a>
+                    <a href="videos.html">
+                        <li> VIDEOS </li>
+                    </a>
+                    <a href="contato.html">
+                        <li> CONTATO </li>
+                    </a>
+                </ul>
+            </nav>
+            <section id="logo">
+                <span id="nome"> AIR LINE </span> <br>linhas internacionais
+            </section>
+        </section>
+    </header>
+    <section id="banner"><img src="HTML5/slide1.jpg"> </section>
+    <section id="conteudo">
+        <aside>
+            <section id="formulario"> <span id="tituloform"> Selecione seu plano </span>
+                <form name="planos" action=" " method="post">
+                    <input type="radio" name="Plano" value="Plano1"> Plano1
+                    <input type="radio" name="Plano" value="Plano2"> Plano2
+                    <br>
+                    <input type="radio" name="Plano" value="Plano3"> Plano3
+                    <input type="radio" name="Plano" value="Plano4"> Plano4
+                    <br>
+                    <br>
+                    Partida
+                    <br>
+                    <input type="text" name="partida" placeholder="Cidade de partida">
+                    <br>
+                    destino
+                    <br>
+                    <input type="text" name="destino" placeholder="Cidade de destino">
+                    <br>
+                    Data da viagem
+                    <br>
+                    <input type="date" name="viagem">
+                    <br>
+                    data do retorno
+                    <br>
+                    <input type="date" name="retorno" placeholder="N° de passagens">
+                    <br>
+                    N° de passagens
+                    <br>
+                    <input type="number" name="passageiros">
+                    <input type="submit" value="Enviar Orçamento">
+                </form>
+            </section>
+            <section id="novidades">
+                <span id listatitulo> Novidade <br> <br> </span>
+                <span id="listalink"> Reajuste no preço das passagens </span> <br>
+                <span id="listaitem"> 07 de Novembro de 2013 </span> <br> <br>
+                <span id="listalink"> Pernoite para Flórida </span> <br>
+                <span id="listaitem"> 07 de Novembro de 2013 </span> <br> <br>
+                <span id="listalink"> Aproveite as férias em Cancun </span> <br>
+                <span id="listaitem"> 07 de Novembro de 2013 </span>
+            </section>
+        </aside>
+        <section id="texto">
+            <span> Air Line - A empresa </span>
+            <section id="textoempresa"> 
+                <img class="imgempresa" src="HTML5/empresa.jpg" width="174" height="90" alt=" Texto qualquer">
+                A AIR LINE TURISMO é dirigidapor Guias de Turismo com mais de 10 anos de mercado,
+                com experiêciaem turismos receptivo terrestre,náutico e de aventura, além de turimos
+                personalizado vip; turimo exceutivo e turimo de eventos.
+                <br> 
+                <br> 
+                Nossa operação é feita por profissonais experientes, conhecidos no mercado, com atuação
+                em grande projetos e preparados para atender qualquer necessidade. Abaixo você ouvir o
+                depoimento em áudio de nosso presidente, que atestará ainda mais a nossa qualidade.
+                <br>
+                <br>
+                <audio controls> <source src="HTML5/depoimento.mp3" type="audio/mp3"> </audio> <!-- audio não funciona no navegador do VS code, se colocar no google chrome funciona -->
+                <a href=" " class="btn"> Veja mais deipoimentos</a> 
+            </section>
+                <span>Nosso Planos</span>
+                <table width="100%" border="1" cellspacing="2" cellspacing="5">
+                <tr>
+                    <td class="tbl">Plano de viagens(FAMÍLIA)</td>
+                    <td class="tbl2"><a href="#" class="btn"> Veja mais </a></td>
+                    
+                </tr>
+                <tr>
+                    <td class="tbl">Plano de viagens(Prata)</td>
+                    <td class="tbl2"><a href="#" class="btn"> Veja mais </a></td>
+                </tr>
+                <tr>
+                    <td class="tbl">Plano de viagens(Ouro)</td>
+                    <td class="tbl2"><a href="#" class="btn"> Veja mais </a></td>
+                </tr>
+                <tr>
+                    <td class="tbl">Plano de viagens(Platina)</td>
+                    <td class="tbl2"><a href="#" class="btn"> Veja mais </a></td>
+                </tr>
+                </table>
+
+        </section>
+    </section>
+    <footer> <span> Desenvolvido por Samuel - Todos os diretos reservado </span>
+    </footer>
+</body>
+
+</html>
